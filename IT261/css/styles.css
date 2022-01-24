@@ -1,0 +1,94 @@
+/* styles for my website */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:rgb(190, 144, 144);
+}
+
+head {
+    background:rgb(184, 157, 157);
+    overflow:hidden;
+    padding:20px 0;
+}
+
+#inner-footer,
+#inner-header {
+    margin:0px auto;
+    max-width:1200px;
+}
+
+#logo {
+    float:left;
+}
+
+nav ul {
+    float:right;
+}
+
+nav li {
+    float:left;
+    margin-left:15px;
+    list-style: none;
+}
+
+nav {
+    float:left;
+    margin-left:15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#wrapper {
+    margin:20px auto;
+    max-width:1200px;
+    padding:20px
+}
+
+#hero {
+    height:300px;
+    background:red;
+    margin-bottom:20px;
+    clear:both;
+}
+
+main {
+    width:63%;
+    padding: 20px;
+    background:lightcoral;
+    float:left;
+}
+
+aside {
+      width:35%;
+      height:300px;
+      background:coral;
+      float:right;
+}
+
+footer {
+    border-top:1px black;
+    height:50px;
+    clear:both;
+    height:50px;
+    line-height:50px;
+}
+
+footer li {
+    float:left;
+    margin-right:30px;
+    list-style-type:none;
+}
+img#Nick{
+    display:block;
+    border-radius:50%;
+    width:320px;
+    margin:auto;
+}
+img.screenshot{
+    width:75%;
+}
