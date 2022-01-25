@@ -2,7 +2,7 @@
 // if/else statements
 
 $temp = 68;
-if($temp == <=50) {
+if($temp <=50) {
 echo 'It\'s a little chilly';  
 } elseif($temp <= 60) {
     echo 'Getting Warmer!';
@@ -37,5 +37,5 @@ if($sales <= 99999) {
     $salary *= 1.30;
     echo 'I just made 30% over my salary and I made '.$salary.'';
 } else {
-    echo "I am retiring"
+    echo "I am retiring";
 }

@@ -83,7 +83,7 @@ echo '<a href="'.$key.'"   '.$value. '</a><br>';
 <ul>
     <?php
     foreach($nav as $key => $value) {
-        echo '<li style="list-style-type:none;"><a style="text-decoration:none;color:red;" href="'.$key'"> '.$value.'</a></li>';
+        echo '<li style="list-style-type:none;"><a style="text-decoration:none;color:red;" href="'.$key.'"> '.$value.'</a></li>';
     }
 ?>
 </ul>
