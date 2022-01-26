@@ -29,6 +29,9 @@
                       <li><a href="week3/arrays.php">arrays.php</a></li>
                       <li><a href="week3/if-else.php">if-else.php</a></li>
                       <li><a href="week3/switch.php">switch.php</a></li>
+                      <li><a href="week3/index.php">index.php</a></li>
+                      <li><a href="week3/for-loop.php">for-loop.php</a></li>
+                      <li><a href="week3/date.php">date.php</a></li>
                     </ul>               
                 <h5>Week 4</h5>
                 <h5>Week 5</h5>
