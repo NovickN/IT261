@@ -1,6 +1,39 @@
- <?php
-    include ('includes/header.php');
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick's Portal Page</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+   
+     <div id="inner-header">
+     <a href="index.php">
+         <div id="logoimg">
+     <img src="images/logo.jpeg" alt="logo" width="75" height="75"/>
+        </div> <!--end logoimg-->
+     </a>
+         </div> <!--end inner-header-->
+   
+        <nav>
+
+            <ul>
+            <li><a href="website/daily.php">Switch</a></li>
+            <li><a href="adder.php">Troubleshoot</a></li>
+            <li><a href="Calculator.php">Calculator</a></li>
+            <li><a href="Email.php">Email</a></li>
+            <li><a href="Database.php">Database</a></li>
+            <li><a href="Gallery.php">Gallery</a></li>
+            </ul>
+
+        </nav>   
+
+    </header>
         <div id='wrapper'>
             <div id='hero'>
 
@@ -19,21 +52,28 @@
                 <h4>Weekly Exercises</h4>
                 <h5>Week 2</h5>
                     <ul>
-                        <li><a href="week2/var.php">var.php</a></li>
-                        <li><a href="week2/currency-logic.php">currency-logic.php</a></li>
-                        <li><a href="week2/currency.php">currency.php</a></li>
+                        <li><a href="weeks/week2/var.php">var.php</a></li>
+                        <li><a href="weeks/week2/currency-logic.php">currency-logic.php</a></li>
+                        <li><a href="weeks/week2/currency.php">currency.php</a></li>
                         <li><a href="week2/heredoc.php">heredoc.php</a></li>
                     </ul>
                 <h5>Week 3</h5>
                     <ul>
-                      <li><a href="week3/arrays.php">arrays.php</a></li>
-                      <li><a href="week3/if-else.php">if-else.php</a></li>
-                      <li><a href="week3/switch.php">switch.php</a></li>
-                      <li><a href="week3/index.php">index.php</a></li>
-                      <li><a href="week3/for-loop.php">for-loop.php</a></li>
-                      <li><a href="week3/date.php">date.php</a></li>
+                      <li><a href="weeks/week3/arrays.php">arrays.php</a></li>
+                      <li><a href="weeks/week3/if-else.php">if-else.php</a></li>
+                      <li><a href="weeks/week3/switch.php">switch.php</a></li>
+                      <li><a href="weeks/week3/index.php">index.php</a></li>
+                      <li><a href="weeks/week3/for-loop.php">for-loop.php</a></li>
+                      <li><a href="weeks/week3/date.php">date.php</a></li>
                     </ul>               
                 <h5>Week 4</h5>
+                <ul>
+                   <li><a href="weeks/week4/form-get.php">Form-Get.php</a></li>
+                   <li><a href="weeks/week4/form1.php">Form1.php</a></li>
+                   <li><a href="weeks/week4/form2.php">Form2.php</a></li>
+                   <li><a href="weeks/week4/form3.php">Form3.php</a></li>
+                   <li><a href="weeks/week4/celcius.php">Celcius.php</a></li>
+                </ul>
                 <h5>Week 5</h5>
                 <h5>Week 6</h5>
                 <h5>Week 7</h5>
@@ -41,6 +81,20 @@
             </aside>
         </div><!--end wrapper -->
 
-        <?php
-        include ('includes/footer.php');
-        ?>
+        <footer>
+        <div id="inner-footer">
+            <ul>
+                <li>Copyright &copy;
+                 <?php echo date('Y') ; ?>
+                </li>
+                <li>All Rights Reserved</li>
+                <li><a href="../index.php">Web Design by Nicholas</a></li>
+                <li><a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fchristine-it-261-portal.herokuapp.com%2F">HTML</a></li>
+                <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristine-it-261-portal.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS</a></li>
+            </ul>
+        </div> <!--end inner-footer-->
+    </footer>
+    
+
+</body>
+</html>
