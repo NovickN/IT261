@@ -21,45 +21,45 @@ $day_array = array(
 
 switch($today){
     case 'Sunday':
-        $nfl = 'Green Bay';
+        $nfl = 'Packers';
         $description = 'The Green Bay Packers are a professional American football team based in Green Bay, Wisconsin. The Packers compete in the National Football League as a member club of the National Football Conference North division';
-        $photo = 'images/green.png';
-        $alt = 'Packers';
+        $photo = '../images/green.png';
+        $alt = 'Green Bay';
         break;
     case 'Monday':
-        $nfl = 'Kansas City';
+        $nfl = 'Chiefs';
         $description = 'The Kansas City Chiefs are a professional American football team based in Kansas City, Missouri. The Chiefs compete in the National Football League as a member club of the league';
-        $photo = 'images/chief.png';
-        $alt = 'Chiefs';
+        $photo = '../images/chief.png';
+        $alt = 'Kansas City';
         break;
     case 'Tuesday':
-        $nfl = 'Tampa Bay';
+        $nfl = 'Buccaneers';
         $description = 'The Tampa Bay Buccaneers are a professional American football team based in Tampa, Florida. The Buccaneers compete in the National Football League as a member club of the leagues National Football Conference South division.';
-        $photo = 'images/buc.png';
-        $alt = 'Buccaneers';
+        $photo = '../images/buc.png';
+        $alt = 'Tampa Bay';
         break;
     case 'Wednesday':
-        $nfl = 'San Francisco';
+        $nfl = '49ers';
         $description = 'The San Francisco 49ers are a professional American football team based in the San Francisco Bay Area.';
-        $photo = 'images/49.png';
-        $alt = '49ers';
+        $photo = '../images/49.png';
+        $alt = 'San Francisco';
         break;
     case 'Thursday':
-        $nfl = 'Los Angeles';
+        $nfl = 'Rams';
         $description = 'The Los Angeles Rams are a professional American football team based in the Los Angeles metropolitan area. The Rams compete in the National Football League as a member of the National Football Conference West division.';
-        $photo = 'images/ram.png';
-        $alt = 'Rams';
+        $photo = '../images/ram.png';
+        $alt = 'Los Angeles';
         break;
     case 'Friday':
-        $nfl = 'New England';
+        $nfl = 'Patriots';
         $description = 'The New England Patriots are a professional American football team based in the Greater Boston area. They compete in the National Football League as a member club of the leagues American Football Conference East division.';
-        $photo = 'images/pat.png'; 
-        $alt = 'Patriots';
+        $photo = '../images/pat.png'; 
+        $alt = 'New England';
         break;
     case 'Saturday':
         $nfl = 'Dallas';
         $description = 'Worst Team in the League';
-        $photo = 'images/dallas.png';
+        $photo = '../images/dallas.png';
         $alt = 'Dallas';
         break;
 }

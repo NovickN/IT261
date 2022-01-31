@@ -68,11 +68,11 @@
                     </ul>               
                 <h5>Week 4</h5>
                 <ul>
-                   <li><a href="weeks/week4/form-get.php">Form-Get.php</a></li>
-                   <li><a href="weeks/week4/form1.php">Form1.php</a></li>
-                   <li><a href="weeks/week4/form2.php">Form2.php</a></li>
-                   <li><a href="weeks/week4/form3.php">Form3.php</a></li>
-                   <li><a href="weeks/week4/celcius.php">Celcius.php</a></li>
+                   <li><a href="weeks/week4/form-get.php">form-Get.php</a></li>
+                   <li><a href="weeks/week4/form1.php">form1.php</a></li>
+                   <li><a href="weeks/week4/form2.php">form2.php</a></li>
+                   <li><a href="weeks/week4/form3.php">form3.php</a></li>
+                   <li><a href="weeks/week4/celcius.php">celcius.php</a></li>
                 </ul>
                 <h5>Week 5</h5>
                 <h5>Week 6</h5>

@@ -116,11 +116,11 @@ aside{
 .GreenBay a{
     color: darkblue;
 }
-.Kansascity, .Kansascity aside, .Kansascity main{
+.Chiefs, .Chiefs aside, .Chiefs main{
     background: #9ACD32;
     color: darkgreen;
 }
-.Kansascity a{
+.Chiefs a{
     color: darkgreen;
 }
 
@@ -161,5 +161,5 @@ aside p{
 }
 
 .current {
-    color: red; 
+    color: rgb(122, 67, 67); 
 }
