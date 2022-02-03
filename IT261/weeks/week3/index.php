@@ -2,10 +2,10 @@
 // arrays reminds me of a category , a category of fruits, names
 //navigation
 
-define('THIS_PAGE', basename($_SERVER['PHP_SE:F']));
+define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 
 $fruits = array(
-    'bannans',
+    'bananas',
     'strawberries',
     'blueberries',
     'oranges',
@@ -14,7 +14,7 @@ $fruits = array(
 );
 
 $fruits = [
-    'bannans',
+    'bananas',
     'strawberries',
     'blueberries',
     'oranges',
@@ -22,7 +22,7 @@ $fruits = [
     'pineapple'
 ];
 // index array
-$fruit[0] = 'bannas';
+$fruit[0] = 'bananas';
 $fruit[1] = 'strawberries';
 $fruit[2] = 'blueberries';
 $fruit[3] = 'oranges';

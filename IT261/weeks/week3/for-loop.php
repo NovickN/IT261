@@ -2,7 +2,7 @@
 
 
 
-$celcius = 0;
+$celcius = 15;
 $far = ($celcius *9/5) + 32;
 ?>
 <!DOCTYPE html>
@@ -55,6 +55,19 @@ echo '</tr>';
 </table>
 
 <h2>Kilometer/Miles Table</h2>
+<th>Kilometers</th>
+<th>Miles</th>
+</tr> 
+<?php
+    for($km = 0; $km <=100; $km +=5) {
+        $mi = floor(($km * 1.60934)); 
+        echo '<tr>'; 
+        echo '<td>'.@$km.' Kilometers </td>'; 
+        echo '<td> '.@$mi.' Miles </td>'; 
+        echo '</tr>'; 
+    }
+?>
+</table>
 
 </body>
 </html>
