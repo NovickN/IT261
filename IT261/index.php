@@ -76,6 +76,12 @@
                    <li><a href="weeks/week4/arithmetic-form.php" title="arithmetic-form.php">arithmetic-form.php</a></li>
                 </ul>
                 <h5>Week 5</h5>
+                <ul>
+                   <li><a href="weeks/week5/currency1.php">curreny1.php</a></li>
+                   <li><a href="weeks/week5/currency2.php">curreny2.php</a></li>
+                   <li><a href="weeks/week5/null.php">null.php</a></li>
+                   <li><a href="weeks/week5/calculater-extra-credit.php">Extra Credit.php</a></li>
+                </ul>
                 <h5>Week 6</h5>
                 <h5>Week 7</h5>
                 <h5>Week 8</h5>
