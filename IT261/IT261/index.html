@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+<title>Nicholas Novick Portal Page</title>
+
+</head>
+    <body>
+        <header>
+            <div id='inner-header'>
+                <h1 id="logo"><a href="index.php">My Logo</a></h1>
+                <h2>Nicholas Novick</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="Daily.php">Daily</a></li>
+                     <li><a href="project.php">Project</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+            <div id="hero">
+                <div id="bio">
+                    <h1>Nicholas IT 261 Portal</h1>
+                        <p>I am pursuing my degree in Web Development. I am about 1 more Semester away from my degree. I hope to one day be a Full Stack Web Developer down the road. When I am not working or taking classes in the evening I am at the gym or hanging out with my family. </p>
+                </div>
+            </div>
+                
+        </div> 
+        <div id="wrapper"> 
+            <main>
+                <h2>MAMP Portal</h2>
+                <img id="mampPortal" class="screenshot" src="./images/mampWorking.png" alt="mamp working">
+                <h3>PHP Errors Displaying</h3>
+                <img id="phpError" class="screenshot" src="./images/phpErrorMessage.png" alt="error message">
+            </main>
+
+            <aside>
+                <h4>Weekly Exercises</h4>
+                <h5>Week 2</h5>
+                    <ul>
+                        <li><a href="var.php">var.php</a></li>
+                        <li><a href="currency-logic.php">currency-logic.php</a></li>
+                        <li><a href="currency.php">currency.php</a></li>
+                        <li><a href="heredoc.php">heredoc.php</a></li>
+                    </ul>
+                <h5>Week 3</h5>
+                <h5>Week 4</h5>
+                <h5>Week 5</h5>
+                <h5>Week 6</h5>
+                <h5>Week 7</h5>
+                <h5>Week 8</h5>
+            </aside>
+        </div><!--end wrapper -->
+
+        <footer>
+            <div id="inner-footer">
+            <ul>
+       <li>Copyright &copy;</li>
+       <li>All Rights Reserved</li>
+       <li><a href="index.php">Web Design by Nicholas</a></li>
+       <li><a id="html-checker" href="#">HTML Validation</a></li>
+       <li><a id="css-checker" href="#">CSS Validation</a></li>
+       
+            </ul>
+       </div>  <!--end inner footer-->
+        </footer>
+       
+        <script>
+               document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+               document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+           </script>
+        
+    </body>
+</html>

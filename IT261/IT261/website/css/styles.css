@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(189, 147, 147);
+    
+}
+header {
+    background: rgb(161, 102, 102);
+    overflow:hidden;
+}
+nav {
+    height:50px;
+    float:right;
+}
+nav ul {
+    float:right;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left:30px;
+}
+nav a {
+    text-decoration:none;
+    color:black;
+}
+nav a.current{
+    color:rgb(86, 111, 143);
+    font-weight:bold;
+}
+.header-inner {
+    max-width:1100px;
+    margin: 20px auto;
+}
+#logo {
+    float:left;
+    width:180px;
+    margin-bottom:20px;
+    max-width:100px;
+}
+#hero{
+   
+    background-color: rgb(50, 119, 131);
+    width: 100%; 
+    height: 300px; 
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+
+
+}
+#wrapper{
+    max-width:1100px;
+    margin:0 auto;
+    min-height:100%;
+}
+
+main{
+    width:62%;
+    background: rgb(41, 160, 140);
+    float: left;
+    padding:30px;
+    font-size:120%;
+    margin-bottom: 20px; 
+}
+main p{
+    padding:6px;
+}
+main ul{
+    padding:6px;
+    list-style-type:none;
+}
+main li{
+    padding:2px;
+}
+#listWrapper{
+    margin:30px;
+    float:left;
+}
+#listWrapper ul{
+    margin:0 20px 20px 20px;
+}
+aside{
+    width:37%;
+    background: white;
+    float:right;
+    margin-left: 10px; 
+}
+
+#nflPhoto{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    border: 5px solid beige;
+    border-radius:5%;
+    clear: both; 
+    margin-top: 2px; 
+    margin-right: 5px; 
+}
+
+#image{
+    clear:both;
+    margin:0 auto;
+    border-radius:0%;
+    overflow:hidden;
+    
+}
+.GreenBay, .GreenBay aside, .GreenBay main {
+    background:rgb(59, 91, 102);
+    color: rgb(18, 18, 65); 
+      
+}
+.GreenBay a{
+    color: darkblue;
+}
+.Chiefs, .Chiefs aside, .Chiefs main{
+    background: #9ACD32;
+    color: darkgreen;
+}
+.Chiefs a{
+    color: darkgreen;
+}
+
+.Dallas, .Dallas aside, .Dallas main{
+    background: rgb(93, 201, 111);
+    color:rgb(78, 134, 148);
+}
+.Dallas a{
+    color: rgb(201, 68, 68);
+}
+
+
+footer{
+    height:2px;
+    line-height:50px;
+    border-top:1px dotted rgb(4, 102, 41);
+    /* position:absolute; */
+    bottom: 2%;
+    clear: both;    
+}
+footer ul{
+    margin:0 auto;
+    color: black; 
+}
+footer li {
+    float:left;
+    list-style-type:none;
+    margin-left:50px;
+    color: black; 
+}
+
+
+aside h3{
+    padding:2px;
+}
+aside p{
+    padding:2px;
+}
+
+.current {
+    color: rgb(122, 67, 67); 
+}
